@@ -1,0 +1,5 @@
+jasypt:
+  encryptor:
+    password: PP_Gant3ng
+app:
+  version: ^project.version^

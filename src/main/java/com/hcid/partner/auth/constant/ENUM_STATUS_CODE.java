@@ -1,0 +1,36 @@
+package com.hcid.partner.auth.constant;
+
+/**
+ * Created by andry.sunandar01 on 18/07/2018.
+ */
+public enum ENUM_STATUS_CODE {
+
+    SNT,
+    NSNT,
+    WRITTEN_OFF,
+    SIGNED,
+    PAID_OFF,
+    SUCCESS,
+    CANCELLED,
+    FAILED,
+    APPROVED,
+    CANCELLED_AUTOMATIC,
+    CANCELLED_MANUAL,
+    ACTIVE,
+    IN_PROGRESS,
+    SENT,
+    IN_PROCESS,
+    PRE_PROCESS,
+    DEDUPLICATION,
+    REJECTED,
+    EVALUATION,
+    EVALUATION_FAILED,
+    OFFER_WITH_ALTENATIVE,
+    OFFER_APPROVE_WITH_ALTERNATIVE,
+    FINISHED,
+    IN_PREPROCESS,
+    DOCUMENT_PREPARATION;
+
+    private ENUM_STATUS_CODE() {
+    }
+}
